@@ -1,0 +1,31 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      read-chunk:
+        specifier: ^5.0.0
+        version: 5.0.0
+      tiny-async-pool:
+        specifier: ^2.1.0
+        version: 2.1.0
+
+packages:
+
+  read-chunk@5.0.0:
+    resolution: {integrity: sha512-kEiU3Y6ET/R1CEpS29aupxwGd19P4y3Y50x0CNFI5j8jowtgHBlNVLH/z5KjjBT5pxixIb7eTeIMJVKTm200cw==}
+    engines: {node: '>=18'}
+
+  tiny-async-pool@2.1.0:
+    resolution: {integrity: sha512-ltAHPh/9k0STRQqaoUX52NH4ZQYAJz24ZAEwf1Zm+HYg3l9OXTWeqWKyYsHu40wF/F0rxd2N2bk5sLvX2qlSvg==}
+
+snapshots:
+
+  read-chunk@5.0.0: {}
+
+  tiny-async-pool@2.1.0: {}

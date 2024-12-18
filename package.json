@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"read-chunk": "^5.0.0",
+		"tiny-async-pool": "^2.1.0"
+	}
+}
